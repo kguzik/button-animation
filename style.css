@@ -81,3 +81,20 @@ span:nth-child(3) {
     top: 16px;
     transform-origin: left center;
 }
+
+#btn-nav.animation-btn span:nth-child(1) {
+    transform: rotate(45deg);
+    top: -2px;
+    left: 3px;
+}
+
+#btn-nav.animation-btn span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+#btn-nav.animation-btn span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 16px;
+    left: 3px;
+}
