@@ -10,6 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
             nav.style.display = "none";
 
         }
-        menuToggle.classList.toggle("animation-btn");
+        this.classList.toggle("animation-btn");
     });
+
+    this.addEventListener("keyup", function (event) {
+        if (event.keyCode === 27) {
+            nav.style.display = "none";
+            menuToggle.classList.toggle("animation-btn");
+        }
+    });
+
 });
